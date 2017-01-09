@@ -1,5 +1,5 @@
 # Open data tips
-Some tips for making open data created by people who end up using the open data.
+Some tips for creating open data in a way that is helpful. These suggestions are from people who end up trying to use open data.
 
 * If you have tabular data, output it as a **CSV file** rather than as a PDF or Excel file
 * When outputting CSVs, only have **one table in each CSV file**.
