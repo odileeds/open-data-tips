@@ -2,7 +2,7 @@
 Some tips for creating open data in a way that is helpful. These suggestions are from people who end up trying to use open data.
 
 * If you have tabular data, output it as a **CSV file** rather than as a PDF or Excel file
-* When outputting CSVs, only have **one table in each CSV file**.
+* When outputting CSVs from , say Excel, make sure that every table gets its own CSV file. Only put **one table in each CSV file**.
 
 ## GIS data
 * Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON;
