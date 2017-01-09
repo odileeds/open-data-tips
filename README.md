@@ -4,7 +4,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
 ## Tabular data
 * If you have tabular data, output it as a **CSV file** rather than as a PDF or Excel file
 * When outputting CSVs from, say Excel, make sure that every table gets its own CSV file. Only put **one table in each CSV file**.
-* Try to keep the tables **as simple as possible**. If you need to add explanations of the data to improve understanding, it is good to include this is accompanying notes on the webpage or a separate text file, rather than trying to include it in data file itself.
+* Try to keep the tables **as simple as possible**. If you need to add explanations of the data to improve understanding, it is good to include this in accompanying notes on a webpage or a separate text file, rather than trying to include it in data file itself.
 * For CSV column headings, try to use **short, self-explanatory titles**. If this is too difficult, explain column headings in accompanying notes.
 * **Steer away from using prefixes and suffixes within cells**.
   * Instead of using '1.40 ltrs' in each cell of a column, just use 1.40, and denote the column as being measured in litres.
