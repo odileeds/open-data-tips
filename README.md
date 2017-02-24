@@ -16,6 +16,14 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
     | 200    | mililitres |
     | 50     | kg         |
 
+## Dates
+* Please provide dates using an international standard such as ISO8601. That allows just dates or dates/times to be provided complete with time zones. Here are some examples:
+   * `2017-02-24`
+   * `2017-02-24T14:51:28+01:00` - the full date and time (to the nearest second) for the Central European Timezone (1 hour offset from GMT)
+   * `2017-02-24T14:51:28Z` - the full date and time (to the nearest second) for GMT
+   * `2017-02-24T14:51:28.564Z` - the full date and time (to the neareast millisecond) for GMT
+
+
 ## GIS data
 * Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON;
 * Provide **longitudes and latitudes**, not just eastings and northings;
