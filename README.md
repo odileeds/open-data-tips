@@ -17,7 +17,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
     | 50     | kg         |
 
 ## Dates
-* Please provide dates using an international standard such as ISO8601. That allows just dates or dates/times to be provided complete with time zones. Here are some examples:
+* Please provide dates using an international standard such as [ISO8601](https://en.wikipedia.org/wiki/ISO_8601). That allows just dates or dates/times to be provided complete with time zones and avoids confusion over American/Rest-of-the-world date formats. It also allows dates to be chronologically sorted very easily. Here are some examples:
    * `2017-02-24`
    * `2017-02-24T14:51:28+01:00` - the full date and time (to the nearest second) for the Central European Timezone (1 hour offset from GMT)
    * `2017-02-24T14:51:28Z` - the full date and time (to the nearest second) for GMT
