@@ -15,6 +15,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
     | 1.40   | litres     |
     | 200    | mililitres |
     | 50     | kg         |
+* **Don't include summary information, such as totals, for data that is already present**. Some data reading might treat these as a row in itself, confounding results and calculations. If you want to provide summary information (e.g. totals, averages and differences), do so using a separate dataset. The underlying data should remain in its raw form.
 
 ## Dates
 * Dates can be ordered differently in different parts of the world. Sometimes people use two digits for the year. This can make it confusing to know what the date is. For example, what is `12.07.16`? It could be 12th July 2016, 7th December 2016, or even 2012 July 16th. There is no way to know for sure. Provide dates using an international standard such as [ISO8601](https://en.wikipedia.org/wiki/ISO_8601). That allows just dates or dates/times to be provided complete with time zones and avoids confusion over American/Rest-of-the-world date formats. ISO8601 also allows dates to be chronologically sorted very easily. Here are some examples:
