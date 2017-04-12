@@ -15,6 +15,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
     | 1.40   | litres     |
     | 200    | mililitres |
     | 50     | kg         |
+* **Don't include summary information, such as totals, for data that is already present**. Some data reading might treat these as a row in itself, confounding results and calculations. If you want to provide summary information (e.g. totals, averages and differences), do so using a separate dataset. The underlying data should remain in its raw form.
 
 ## Dates
 Dates can be ordered differently in different parts of the world. Sometimes people use two digits for the year. This can make it confusing to know what the date is. For example, what is `12.07.16`? It could be 12th July 2016, 7th December 2016, or even 2012 July 16th. There is no way to know for sure. Provide dates using an international standard such as [ISO8601](https://en.wikipedia.org/wiki/ISO_8601). That allows just dates or dates/times to be provided complete with time zones and avoids confusion over American/Rest-of-the-world date formats. ISO8601 also allows dates to be chronologically sorted very easily. Here are some examples:
@@ -25,15 +26,14 @@ Dates can be ordered differently in different parts of the world. Sometimes peop
 
 
 ## GIS data
-* You don't need to use a proper geographic format file if your dataset is coordinate points, this can be done using CSV. Include the latitude and longitude for each data point (the X and Y) in separate columns.
-* If your dataset refers to geographical areas (e.g. council or parliamentary areas) include the **code**, not just the name. For the UK, the ONS maintains this definitive [list of GSS codes and names](https://www.ons.gov.uk/methodology/geography/geographicalproducts/namescodesandlookups/namesandcodeslistings).
-* Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON.
-* Provide **[longitudes and latitudes](https://en.wikipedia.org/wiki/Decimal_degrees)**, not just eastings and northings.
+* Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON. There is also a [handy online tool](http://www.mapshaper.org/) for conversion to Geojson
+* Provide **[longitudes and latitudes](https://en.wikipedia.org/wiki/Decimal_degrees)**, not just eastings and northings. Again, your GIS software should be able to save in this coordinate reference system (usually referred to as WGS 84).
 * Think about the number of **decimal places** you provide for longitudes and latitudes. The more decimal places you provide the bigger the file size. You only need to provide as many decimal places as the precision of your measurements. One degree of latitude/longitude on Earth is, at most, about 111km. Therefore, five decimal places gives an accuracy of about 1 metre, which is enough for most cases. It is highly unlikely that you’ve measured the location of a bus stop to the scale of an atomic nucleus so don’t provide the coordinates to 16 decimal places. I shaved ~700kB off one 2MB GeoJSON file just by truncating the precision to 5 decimal places.
+* You don't need to use a proper geographic format file if your dataset is coordinate points, this can be done using CSV. Include the latitude and longitude for each data point in *lat* and *lon* columns. Using [this website](http://geojson.io) you can also save these files as Geojson.
+* If your dataset refers to geographical areas (e.g. council or parliamentary areas) include the **code**, not just the name. For the UK, the ONS maintains this definitive [list of GSS codes and names](https://www.ons.gov.uk/methodology/geography/geographicalproducts/namescodesandlookups/namesandcodeslistings).
 
 ## Metadata
 Metadata is the data that describes your data. Typically this includes information that the data user will want to know, but which doesn't form part of the actual dataset.
-
 * Metadata includes information such as publisher and/or author, sources and methodology, publication date, licensing information and geographical coverage.
 * Don't mix metadata with your data. For instance, don't add extra lines describing sources and caveats to the bottom of your dataset, and don't add a dataset title above your headers. If you feel that you really must do this, denote such comments with a character such as '#'.
 * Include metadata on the webpage where your dataset is published. This has the added bonus of making your data easier to find on the Web.
