@@ -39,5 +39,8 @@ Metadata is the data that describes your data. Typically this includes informati
 * Include metadata on the webpage where your dataset is published. This has the added bonus of making your data easier to find on the Web.
 * If you are publishing data for a research project or in a disciplinary area, consider applying [existing metadata standards](http://www.dcc.ac.uk/drupal/resources/metadata-standards).
 
+## Anonymisation/privacy
+Coming soon.
+
 # Further reading
 * [ODI Guides](http://theodi.org/guides)
