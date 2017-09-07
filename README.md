@@ -19,7 +19,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
 
 ## Dates
 Dates can be ordered differently in different parts of the world. Sometimes people use two digits for the year. This can make it confusing to know what the date is. For example, what is `12.07.16`? It could be 12th July 2016, 7th December 2016, or even 2012 July 16th. There is no way to know for sure. Provide dates using an international standard such as [ISO8601](https://en.wikipedia.org/wiki/ISO_8601). That allows just dates or dates/times to be provided complete with time zones and avoids confusion over American/Rest-of-the-world date formats. ISO8601 also allows dates to be chronologically sorted very easily. Here are some examples:
-   * `2017-02-24` - if you just need to provide the date
+   * `2017-02-24` - (i.e. yyyy-mm-dd) if you just need to provide the date
    * `2017-02-24T14:51:28+01:00` - the full date and time (to the nearest second) for the Central European Timezone (1 hour offset from GMT)
    * `2017-02-24T14:51:28Z` - the full date and time (to the nearest second) for GMT
    * `2017-02-24T14:51:28.564Z` - the full date and time (to the neareast millisecond) for GMT
