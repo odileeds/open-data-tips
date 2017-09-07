@@ -39,8 +39,11 @@ Metadata is the data that describes your data. Typically this includes informati
 * Include metadata on the webpage where your dataset is published. This has the added bonus of making your data easier to find on the Web.
 * If you are publishing data for a research project or in a disciplinary area, consider applying [existing metadata standards](http://www.dcc.ac.uk/drupal/resources/metadata-standards).
 
-## Anonymisation/privacy
-Coming soon.
+## Anonymisation and data privacy
+* "Personal data" is defined by the Data Protection Act (DPA) as any data which relates to a living individual who can be identified:
+    * from those data; or,
+    * from those data and other information likely that someone is likely to have access to
+* Anonymisation is the process of transforming this data to a form which **does not identify individuals and where identification is not likely to take place.** This allows for wider use of the information, including publication, as the DPA no longer applies to the data, as it is now non-personal.
 
 # Further reading
 * [ODI Guides](http://theodi.org/guides)
