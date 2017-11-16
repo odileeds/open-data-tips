@@ -15,6 +15,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
     | 1.40   | litres     |
     | 200    | mililitres |
     | 50     | kg         |
+  * Don't include commas, periods, or spaces to separate groups of thousands. These are formatting characters and will generally cause problems when interpreting numbers. [In many European countries](https://docs.oracle.com/cd/E19455-01/806-0169/overview-9/index.html) a `,` is the decimal indicator whereas the UK and US use `.`. Including thousands indicators leads to ambiguity in the interpretation of the number e.g. `1,066` could be interpreted as `one thousand and sixty six` or `one point sixty six`. Instead use `1066` as this avoids the confusion entirely.
 * **Don't include summary information, such as totals, for data that is already present**. Some data reading might treat these as a row in itself, confounding results and calculations. If you want to provide summary information (e.g. totals, averages and differences), do so using a separate dataset. The underlying data should remain in its raw form.
 
 ## Dates
