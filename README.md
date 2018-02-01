@@ -9,7 +9,7 @@ Some tips for creating open data in a way that is helpful. The aim is to make yo
 * **Numbers should be numbers**. Steer away from using prefixes and suffixes within cells.
   * Instead of using '1.40 ltrs' in each cell of a column, just use 1.40, and denote the column as being measured in litres. The same applys to currency, in fact, try to avoid using symbols as far as possible.
   * If there are a number of measures for each cell (e.g. litres, millilitres, grammes), create a new column and denote the measure in that column:
-  
+
     | Amount | Measure    |
     |--------|------------|
     | 1.40   | litres     |
@@ -27,7 +27,7 @@ Dates can be ordered differently in different parts of the world. Sometimes peop
 
 
 ## GIS data
-* Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON. There is also a [handy online tool](http://www.mapshaper.org/) for conversion to Geojson
+* Shapefiles are good but it can make life easier for those without desktop GIS software if you **also provide data as GeoJSON** (plain text). Your GIS software should be able to export as GeoJSON. There is also a [handy online tool](http://www.mapshaper.org/) for conversion to Geojson. There are online tools that will help you [validate JSON](https://jsonlint.com/) and [visualise your GeoJSON](http://geojsonlint.com/) to look for obvious mistakes.
 * Provide **[longitudes and latitudes](https://en.wikipedia.org/wiki/Decimal_degrees)**, not just eastings and northings. Again, your GIS software should be able to save in this coordinate reference system (usually referred to as WGS 84).
 * Think about the number of **decimal places** you provide for longitudes and latitudes. The more decimal places you provide the bigger the file size. You only need to provide as many decimal places as the precision of your measurements. One degree of latitude/longitude on Earth is, at most, about 111km. Therefore, five decimal places gives an accuracy of about 1 metre, which is enough for most cases. It is highly unlikely that you’ve measured the location of a bus stop to the scale of an atomic nucleus so don’t provide the coordinates to 16 decimal places. For instance, the [ONS Wards Generalised Clipped Boundaries in Great Britain](http://geoportal.statistics.gov.uk/datasets/afcc88affe5f450e9c03970b237a7999_2) has a resolution of 20m but the coordinates are given to 15 decimal places. The resulting [46.5MB GeoJSON file](http://geoportal.statistics.gov.uk/datasets/afcc88affe5f450e9c03970b237a7999_2.geojson) could be reduced to 24.8MB just by truncating the precision to 5 decimal places.
 * You don't need to use a proper geographic format file if your dataset is coordinate points, this can be done using CSV. Include the latitude and longitude for each data point in *lat* and *lon* columns. Using [this website](http://geojson.io) you can also save these files as Geojson.
