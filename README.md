@@ -24,6 +24,7 @@ Dates can be ordered differently in different parts of the world. Sometimes peop
    * `2017-02-24T14:51:28+01:00` - the full date and time (to the nearest second) for the Central European Timezone (1 hour offset from GMT)
    * `2017-02-24T14:51:28Z` - the full date and time (to the nearest second) for GMT
    * `2017-02-24T14:51:28.564Z` - the full date and time (to the neareast millisecond) for GMT
+
 Use of ISO8601 is also [recommended by the Government Digital Service](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
