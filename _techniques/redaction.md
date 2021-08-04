@@ -18,10 +18,10 @@ Of course, a user could also write their own PII identifier by utilising regular
 
 ## References
 
-https://pypi.org/project/piianalyzer/ for identifying PII in datasets. 
+<https://pypi.org/project/piianalyzer/> for identifying PII in datasets. 
 
-Python script for redacting PDFs: https://github.com/JoshData/pdf-redactor 
+Python script for redacting PDFs: <https://github.com/JoshData/pdf-redactor> 
 
-https://github.com/madisonmay/CommonRegex
+<https://github.com/madisonmay/CommonRegex>
 
 {% include ena-cc.md %}
