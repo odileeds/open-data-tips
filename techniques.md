@@ -7,6 +7,6 @@ title: Data Techniques
 This page contains a catalogue of data techniques.
 
 {% for t in site.techniques %}
-* [{{ t.title }}]({{ t.url }})  
+* [{{ t.title }}]({{ t.url | relative_url }})  
   {{ t.excerpt }}
 {% endfor %}
