@@ -16,6 +16,10 @@ This can be impractical to do manually but there are packages which can be used 
 
 Of course, a user could also write their own PII identifier by utilising regular expression datasets. Once the PII has been identified these can be replaced.
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
 ## References
 
 <https://pypi.org/project/piianalyzer/> for identifying PII in datasets. 

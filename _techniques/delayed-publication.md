@@ -8,4 +8,9 @@ When data has a limited time sensitivity, for example location data (to understa
 
 However, releasing this data at a later point can not only reduce this risk but further data manipulations can be applied to make the data even more secure (such as removing potential home and work identifiers of an individual, see Section on Translation/Rotation). 
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
+
 {% include ena-cc.md %}

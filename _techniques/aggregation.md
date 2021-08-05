@@ -8,6 +8,10 @@ Aggregation refers to grouping of data. This could be the summing, or averaging 
 
 To take smart meter data as an example again. In its raw half-hourly form, there may be many private features of a households day-to-day behaviour exposed. However, aggregating up to daily or weekly level, conceals all this behaviour. However, it may not conceal when a household is on holiday and the home is empty. In this case, aggregating across a street may be more advantageous for analysis. This both conceals the individual’s behaviour and makes it unlikely to identify individuals who have gone on holiday (unless many of the occupants go on holiday at the same time). 
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
 ## References
 
 Python’s pandas package, <https://pandas.pydata.org/>, contains a wide range of aggregation functions including mean, median, max, min, etc. 

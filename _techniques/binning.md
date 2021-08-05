@@ -8,6 +8,10 @@ Certain information like ages and town of birth can be used as quasi-identifiers
 
 A more advanced way to group individuals is to use supervised discrimination methods, also known as clustering methods, such as k-means and Gaussian mixture models. These methods are commonly included in most scientific programming languages. For example, Python can implement both k-means and Gaussian mixture models as part of its scikit-learn package: <https://scikit-learn.org/stable/>
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
 ## Reference
 
 Most programming languages have methods for quantising data. 

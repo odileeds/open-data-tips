@@ -20,6 +20,10 @@ additional information, as long as such additional information is kept separatel
 technical and organizational measures to ensure non-attribution to an identified or identifiable
 individual”.
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
 ## References
 
 <https://en.wikipedia.org/wiki/Pseudonymization>

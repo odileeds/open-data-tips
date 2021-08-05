@@ -18,6 +18,10 @@ Some common techniques are:
 As with all anonymisation techniuques, care needs to be taken that the process is not reversible. For example, a simple rotation or
 substitution of characters is vulnerable to codebreaking techniques to reverse the coding.
 
+## Scenarios
+
+TKTKTK EXAMPLE SCENARIOS
+
 ## References
 
 PostgreSQL has a number of masking functions: https://postgresqlanonymizer.readthedocs.io/en/latest/masking_functions/ 
