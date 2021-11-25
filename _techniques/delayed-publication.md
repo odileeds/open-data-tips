@@ -1,5 +1,6 @@
 ---
 title: Delayed Publication
+common: true
 ---
 
 Deferring publication of data for a defined period.

@@ -1,5 +1,6 @@
 ---
 title: Redaction
+common: true
 ---
 
 Removing or overwriting selected features.

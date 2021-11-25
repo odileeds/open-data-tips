@@ -1,5 +1,6 @@
 ---
 title: Aggregation
+common: true
 ---
 
 Aggregation is one process of de-identification and refers to the process of grouping together raw data and providing this in a summarised form. Aggregation can take place in several ways including:
