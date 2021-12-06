@@ -1,0 +1,23 @@
+---
+---
+
+@import "jekyll-theme-primer";
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: right;
+  border-bottom: 1px solid #eaecef;
+  h1 {
+    border-bottom: none;
+    margin: 0;
+  }
+  :first-child {
+    flex-grow: 1;
+  }
+  nav {
+    a {
+      padding-left: 1em;
+    }
+  }
+}
