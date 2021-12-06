@@ -1,5 +1,6 @@
 ---
 title: Data Techniques
+layout: article
 ---
 
 # {{ page.title}}
