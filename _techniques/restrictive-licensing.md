@@ -4,7 +4,7 @@ common: true
 ---
  A licence tells a data user what they are able to do with a given data set once they have access to it. If relevant permissions are not granted through a licence, a data user is often legally not allowed to download or otherwise copy data, combine that data with other datasets, use the data to generate maps, or use the data to help inform internal business conversations. 
 
-Ofgem’s principle of [*‘Presumed Open’](https://www.ofgem.gov.uk/sites/default/files/2021-11/Data_Best_Practice_Guidance_v1.pdf)* requires DNOs to start from a position of assuming that data they publish is made available under an ‘open licence’, and to only consider adding restrictions when there are reasons to do so. 
+Ofgem’s principle of [‘Presumed Open’](https://www.ofgem.gov.uk/sites/default/files/2021-11/Data_Best_Practice_Guidance_v1.pdf) requires DNOs to start from a position of assuming that data they publish is made available under an ‘open licence’, and to only consider adding restrictions when there are reasons to do so. 
 
 To be an open licence, only two restrictions can be placed on data that is being licensed. At most, a data owner can require a user:
 * give **attribution** to the source of the content or data
