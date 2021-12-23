@@ -2,16 +2,21 @@
 title: Delayed Publication
 common: true
 ---
+Introduction 
 
-Deferring publication of data for a defined period.
+Data released in real time can compromise the security of individuals or of an organisation. For instance, it could be used to track a person in real time or to show when a house is empty, or to show when capacity is reached in a network. This can allow those with harmful intent to follow an individual or organisations activity in real time, and find opportune moments to inflict harm.
 
-When data has a limited time sensitivity, for example location data (to understand traffic behaviour say) being made immediately public would not be appropriate as it could be used to track someone in real time and perhaps identify the individual. 
+Delaying publication of data - for instance by six months or a year - can help reduce the likelihood of harm occurring. It is no longer possible for someone with harmful intentions to monitor real time actual activity and take action based upon that.
 
-However, releasing this data at a later point can not only reduce this risk but further data manipulations can be applied to make the data even more secure (such as removing potential home and work identifiers of an individual, see Section on Translation/Rotation). 
+This technique may not be used independently as it is possible to make inferences about individuals or organisations activity. Patterns can be identified, such as when a house is likely to be empty, and could be used speculatively. Therefore, further data manipulations may be applied to make the data even more secure.
 
-## Scenarios
+Considerations
+Time delay may remove value for data re-users
+Delaying data publication may remove some of the value of the data for re-users. Engage with your stakeholder community to understand if this might be the case, or if using alternative mitigation techniques, such as access control and anonymisation may be more appropriate. 
 
-TKTKTK EXAMPLE SCENARIOS
+May not add significant security
+As mentioned above, those with hostile intentions could try to infer current patterns from historic behaviour. If this approach is used, it is likely to be used in combination with others such as access control or anonymisation. 
+
 
 
 {% include ena-cc.md %}
