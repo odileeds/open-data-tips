@@ -3,30 +3,55 @@ title: Redaction
 common: true
 ---
 
-Removing or overwriting selected features.
+Redaction is the technique where certain features of the dataset are removed or made otherwise unreadable
+(replacing with unrelated dummy data). This could apply to a field or fields across all records, or
+removal of complete records.
 
-Redaction refers to editing data. Redaction often refers to documents which require sensitive data to be removed although a table or database could also be redacted. 
+## When might Redaction be valuable?
 
-One of the simplest ways to remove sensitive data is to simply remove it from the dataset i.e., if one column of a data set has names of individuals then this field could be deleted. 
+This is a valuable technique when the data publication risks releasing sensitive data. It is relatively simple to
+acheive and is a lower-risk technique than other approaches to masking or altering the data, as there is little
+residual risk of re-identification if sensitive fields or records are removed.
 
-Alternatively, they could be replaced with other values. In the latter case this could be seen as similar to pseudonymisation as long as the replacement information uses a unique identifier to ensure that individuals are distinguishable. 
+## Key considerations and risks
 
-Redaction can be applied to several different types of data, i.e., pdf’s etc. In this case the personal identifiable information must be identified before it can be replaced. 
+### Field-level redaction
 
-This can be impractical to do manually but there are packages which can be used to simplify the task. PII Analyzer searches 2 common regular expressions to identify certain types of PII such as email addresses, credit card numbers, phone numbers etc. There are also other open source tools such as pdf-redactor 3 which have been used to redact data from PDFs. 
+One of the simplest ways to handle sensitive data is to simply remove it from the dataset i.e. if one
+column of a data set has names of individuals then this field could be deleted.
 
-Of course, a user could also write their own PII identifier by utilising regular expression datasets. Once the PII has been identified these can be replaced.
+### Record-level redaction
 
-## Scenarios
+There may be certain records within a dataset (e.g. vulnerable customers, secret/military establishments)
+which are considered so sentitive, that removing the entire row is the only way to reduice the risk of publication.
 
-TKTKTK EXAMPLE SCENARIOS
+### Relationship to other techniques
 
-## References
+The sensitive data could be replaced with other values rather than being removed.
+In this case it could be considered application of alternative techniques
+[obfuscation]({{ "/technique/obfuscation" | relative_url }}), 
+[pshudonymisation]({{ "/technique/pshudonymisation" | relative_url }}) or
+[anonymisation]({{ "/technique/anonymisation" | relative_url }}), which replaces sensitive data with an identifier
+or synthetic data which retains the statistical characteristics of the dataset.
 
-<https://pypi.org/project/piianalyzer/> for identifying PII in datasets. 
+True obfuscation would replace the data with an inert string such as `xxxx` removing the value of that field or record.
+A reason for doing would be to completely remove the risk of publication, whilst showing the initial structure of
+the source data.
 
-Python script for redacting PDFs: <https://github.com/JoshData/pdf-redactor> 
+### Redaction of unstructured data
 
+Redaction often refers to documents which require sensitive data to be removed. Given the typically unstructured nature
+of this type of document compared to a database or table, this is a potentially manually intensive task.
+
+In this case the personal identifiable information must be identified before it can be replaced. 
+
+This can be impractical to do manually but there are tools which can be used to simplify the task. These use pattern matching
+approaches to to identify certain types of PII such as email addresses, credit card numbers, phone numbers etc.
+
+<!--
+<https://pypi.org/project/piianalyzer/>
+<https://github.com/JoshData/pdf-redactor> 
 <https://github.com/madisonmay/CommonRegex>
+-->
 
 {% include ena-cc.md %}
