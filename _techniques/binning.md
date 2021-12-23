@@ -12,11 +12,11 @@ This can reduce the risk of using this information for identifying individuals.
 > Typically, the technique is focussed on reducing the **probability** of a risk occurring - assuming
 > the risk is associated with reidentification. The **impact** of the risk if it occurs is unaffected.
 
-## When might access control measures be valuable? 
+## When might Data Binning be valuable? 
 
 This is a useful technique if the value of the dataset resides in the ablility to analyse the features
 of individual entries, rather than descriptive statitics that might be released in a
-[summarised or aggregated](./aggregation) data set. If the individual fields are otherwise too risky to
+[summarised or aggregated]({{ "/technique/aggregation" | relative_url }}) data set. If the individual fields are otherwise too risky to
 release, comprising personal or other sensitive data, a binned version can provide a means of reducing
 the risk of identifying an individual.
 
