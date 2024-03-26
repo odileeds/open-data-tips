@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Build the site
-        uses: dringtech/lume-build@v1.1.0
+        uses: dringtech/lume-build@v2
 
   # Deploy job
   deploy:
@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
