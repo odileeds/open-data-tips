@@ -1,0 +1,8 @@
+layout: layouts/default.vto
+
+metas:
+  site: Open data tips
+  twitter: "@openinnovates"
+  # icon: /img/icon.png
+  lang: en
+  generator: true

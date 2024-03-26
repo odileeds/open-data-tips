@@ -1,0 +1,22 @@
+---
+title: Data Techniques
+layout: layouts/article.vto
+---
+
+<p>This page contains a catalogue of data techniques.</p>
+
+<h2>Common Techniques</h2>
+
+<ul>
+  {{ for t of search.pages('technique common=true', 'title') }}
+  <li>{{ comp.preview_link({ target: t }) }}</li>
+  {{ /for }}
+</ul>
+
+<h2>Less Common Techniques</h2>
+
+<ul>
+  {{ for t of search.pages('technique common!=true', 'title') }}
+  <li>{{ comp.preview_link({ target: t }) }}</li>
+  {{ /for }}
+</ul>

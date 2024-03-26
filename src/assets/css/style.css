@@ -1,14 +1,11 @@
----
----
-
-@import "jekyll-theme-primer";
+@import "css/jekyll-theme-primer.css";
 
 .site-header {
   display: flex;
   align-items: baseline;
   justify-content: right;
   border-bottom: 1px solid #eaecef;
-  h1 {
+  .site-title {
     border-bottom: none;
     margin: 0;
   }
