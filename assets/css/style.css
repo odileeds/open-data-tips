@@ -54,9 +54,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: black;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	min-height: 100vh;
 }
 a, a:visited { color: inherit; }
@@ -75,6 +72,9 @@ h2 a, h3 a,p a { color: #2254F4; text-decoration: underline; }
 p, time, li, td, th, footer, div { font-weight: 300; }
 button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; vertical-align: top; line-height: 1.25em; user-select: none; }
 a:hover, a:focus { text-decoration: underline; }
+
+ul { list-style: disc; }
+ol, ul { margin-left: 2em; }
 
 .oi-logo { width: 200px; margin-bottom: 0.25em; }
 .message { font-family: Poppins; font-size: 2em; line-height: 1.25em; margin: 2em 0; }
@@ -110,6 +110,11 @@ a.c8-bg:hover, a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-
 .center-block ul { display: grid; grid-gap: 1rem; grid-template-columns: 1fr 1fr; }
 .center-block ul a { display: block; padding: 1.5rem; text-decoration: none; height: 100%; }
 .center-block ul a > *:last-child { margin-bottom: 0; }
+
+.site-header { display: flex; align-items: end; margin-bottom: 1rem; }
+.site-header > h1 { flex-grow: 1; }
+.site-header > a { text-decoration: none; }
+footer a { color: inherit; }
 
 @media screen and (max-width: 1200px) {
 	.center-block ul { grid-template-columns: 100%; }
