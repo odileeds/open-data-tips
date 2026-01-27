@@ -7,18 +7,19 @@
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="/open-data-tips/assets/css/style.css">
 </head>
-<body>
-	<div class="holder">
+<body class="b1-bg">
+	<div class="holder b6-bg padded">
 		<header class="site-header">
-			<h1><a href="/">{{ page.title }}</a></h1>
+			<h1><a href="/">{{ site.title }}</a></h1>
 			<a href="/techniques">Techniques</a>
 		</header>
 
 		{{ content }}
 
-		<div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-			This site is open source. {% github_edit_link "Improve this page" %}.
-		</div>
 	</div>
+	<footer class="padded tall-padded">
+		<p>&copy; Open Innovations 2026</p>
+		<p>This site is open source. {% github_edit_link "Improve this page" %}.</p>
+	</footer>
 </body>
 </html>
