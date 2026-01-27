@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ page.title }}</title>
+	<title>Open data tips</title>
 	<link rel="stylesheet" href="/open-data-tips/assets/css/style.css">
 </head>
 <body class="b1-bg">
@@ -23,5 +23,14 @@
 			<p>This site is open source. {% github_edit_link "Improve this page" %}.</p>
 		</div>
 	</footer>
+<script>
+/*
+Open Innovations Log
+Web usage monitoring with less privacy invasion
+Version: 2022-01-25 https://open-innovations.org/resources/oi.log.js
+*/
+!function(t){t.OI||(t.OI={});var e=location;function n(t){return 50*Math.round(t/50)}t.OI.log=new function(){var t,r,o,u,f,s;return r="https://open-innovations.org/log",o=document.referrer,u=new RegExp(e.origin,"g"),0==o.indexOf(e.origin)&&(o=o.replace(u,"")),f=n(window.innerWidth)+"x"+n(window.innerHeight),this.setup=function(e){return e||(e={}),e.dest&&(r=e.dest),e.id&&(t=e.id),e.target&&(s=e.target),s="string"==typeof s?[s]:s,this},this.add=function(n,u){if("file:"==e.protocol)return this;if(!function(t){if("object"!=typeof t||t.length<=0)return!0;for(i=0;i<t.length;i++)if(t[i]==e.host)return!0;return!1}(s))return this;var d=new XMLHttpRequest;return d.open("POST",r,!0),d.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),"function"==typeof u&&(d.onload=u),d.send((t?"oid="+t+"&":"")+"url="+e.href+"&"+(o?"ref="+o+"&":"")+(f?"size="+f+"&":"")+n),this},this}}(window||this);
+OI.log.setup({'id':'odileeds','target':['open-innovations.github.io','odileeds.github.io']}).add('action=view');
+</script>
 </body>
 </html>
