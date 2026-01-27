@@ -60,7 +60,7 @@ a, a:visited { color: inherit; }
 
 /* Main site styling */
 body { background-color: #000000; font-family: Arial,sans-serif; color: #efefef; line-height: 1.44em; text-rendering: optimizeLegibility; }
-p, iframe, h2, h3, h4, figure, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
+p, iframe, h2, h3, h4, figure, ul, ol, .block, .padded-bottom, table { margin-bottom: 16px; }
 h1,h2,h3,h4 { font-family: Poppins, "fallback for poppins", sans-serif; line-height: 1em; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.7em; font-weight: 500; }
@@ -77,7 +77,6 @@ a:hover, a:focus { text-decoration: underline; }
 ul { list-style: disc; }
 ol, ul { margin-left: 2em; }
 
-.oi-logo { width: 200px; margin-bottom: 0.25em; }
 .message { font-family: Poppins; font-size: 2em; line-height: 1.25em; margin: 2em 0; }
 
 .holder { position: relative; width: 68rem; max-width: 100%; margin: auto; }
@@ -100,22 +99,15 @@ ol, ul { margin-left: 2em; }
 a.c8-bg:hover, a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-bg:hover, a.c8-bg:focus, a.b1-bg:focus, a.b2-bg:focus, a.b3-bg:focus, a.b4-bg:focus, a.b5-bg:focus { background-color: #000000; color: white!important; }
 .b6-bg .button { background-color: black; color: white!important; }
 
-.center-block {
-	text-align: center;
-	max-width: 1080px;
-	margin: 1rem;
-}
-.center-block * > *:last-child { margin-bottom: 0; }
-.center-block h1 { margin-top: 0; margin-bottom: 1rem; }
-.center-block .oi-logo { width: 128px; height: 128px; }
-.center-block ul { display: grid; grid-gap: 1rem; grid-template-columns: 1fr 1fr; }
-.center-block ul a { display: block; padding: 1.5rem; text-decoration: none; height: 100%; }
-.center-block ul a > *:last-child { margin-bottom: 0; }
-
 .site-header { display: flex; align-items: end; }
-.site-header > h1 { flex-grow: 1; }
+.site-header .title { flex-grow: 1; font-family: Poppins, sans-serif; }
 .site-header a { text-decoration: none; }
 footer a { color: inherit; }
+table th, table td {
+	padding: 0.125rem 0.25rem;
+	border: 1px solid gray;
+}
+
 
 @media screen and (max-width: 1200px) {
 	.center-block ul { grid-template-columns: 100%; }

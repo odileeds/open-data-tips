@@ -60,5 +60,5 @@ Metadata is the data that describes your data. Typically this includes informati
     2. The removal or obfuscation of indirect identifiers. These are pieces of information that on their own could not identify an individual person, but lead to an increased risk of identification because it is unusual, part of a small group of individuals, or can be used in combination with other information or knowledge (e.g. acquaintance with the group).
     3. The removal or obfuscation of combinations of variables that could identify an individual by returning a single result.
 
-# Further reading
+## Further reading
 * [ODI Guides](http://theodi.org/guides)
