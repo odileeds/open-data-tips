@@ -62,9 +62,10 @@ a, a:visited { color: inherit; }
 body { background-color: #000000; font-family: Arial,sans-serif; color: #efefef; line-height: 1.44em; text-rendering: optimizeLegibility; }
 p, iframe, h2, h3, h4, figure, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
 h1,h2,h3,h4 { font-family: Poppins, "fallback for poppins", sans-serif; line-height: 1em; }
-h1 { font-size: 2em; margin-top: 1em; }
-h2 { font-size: 1.7em; margin-top: 1.7647058823529411em; font-weight: 500; }
-h3 { font-size: 1.4em; margin-top: 1.428571em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.7em; font-weight: 500; }
+h3 { font-size: 1.4em; }
+h1 + *, h2 + *, h3 + *, h4 + * { margin-top: 1rem; }
 h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
 strong, b { font-weight: 700; }
 em, i { font-style: italic; }
@@ -111,9 +112,9 @@ a.c8-bg:hover, a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-
 .center-block ul a { display: block; padding: 1.5rem; text-decoration: none; height: 100%; }
 .center-block ul a > *:last-child { margin-bottom: 0; }
 
-.site-header { display: flex; align-items: end; margin-bottom: 1rem; }
+.site-header { display: flex; align-items: end; }
 .site-header > h1 { flex-grow: 1; }
-.site-header > a { text-decoration: none; }
+.site-header a { text-decoration: none; }
 footer a { color: inherit; }
 
 @media screen and (max-width: 1200px) {
