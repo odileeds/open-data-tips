@@ -1,7 +1,4 @@
----
-title: Access Control
-common: true
----
+# Access Control
 
 Introducing access control means that you are restricting who can see and use a given data set. As such, you are no longer publishing Open Data, and instead are either publishing Shared Data, creating steps to authorise and authenticate suitable users, or looking to negotiate 1-2-1 bespoke contracts between yourself and data reusers, prior to providing access to the data. 
 

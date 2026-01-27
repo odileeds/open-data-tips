@@ -1,6 +1,4 @@
----
-title: Obfuscation
----
+# Obfuscation
 
 Process for hiding original data with modified content.
 

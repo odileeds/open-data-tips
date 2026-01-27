@@ -1,7 +1,4 @@
----
-title: Delayed Publication
-common: true
----
+# Delayed Publication
 
 Data released in real time can compromise the security of individuals or of an organisation. For instance, it could be used to track a person in real time or to show when a house is empty, or to show when capacity is reached in a network. This can allow those with harmful intent to follow an individual or organisations activity in real time, and find opportune moments to inflict harm.
 

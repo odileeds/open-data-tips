@@ -1,6 +1,4 @@
----
-title: Anonymisation
----
+# Anonymisation
 
 Anonymisation is the process of removing personal identifiers, both direct and indirect, that may 
 lead to an individual being identified.

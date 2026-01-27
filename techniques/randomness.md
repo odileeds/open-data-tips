@@ -1,6 +1,4 @@
----
-title: Randomness
----
+# Randomness
 
 A group of techniques which alter the data by adding randomness.
 

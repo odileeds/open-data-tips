@@ -1,6 +1,4 @@
----
-title: Feature Extraction
----
+# Feature Extraction
 
 Extract or generate new features from the data which hide the private data and replace.
 

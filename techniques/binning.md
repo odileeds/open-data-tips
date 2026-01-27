@@ -1,7 +1,4 @@
----
-title: Data Binning
-common: true 
----
+# Data Binning
 
 Data Binning is a technique which can preserve the granularity of data — keeping individual-level
 records — whilst reducing the ability to readily identify individuals. This recognises that certain

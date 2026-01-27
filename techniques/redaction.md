@@ -1,7 +1,4 @@
----
-title: Redaction
-common: true
----
+# Redaction
 
 Redaction is the technique where certain features of the dataset are removed or made otherwise unreadable
 (replacing with inert dummy data). This could apply to a field or fields across all records, or

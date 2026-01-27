@@ -1,6 +1,4 @@
----
-title: Pseudonymisation
----
+# Pseudonymisation
 
 Replacing identifying features with a unique identifier that retains the reference to an individual whilst breaking the link with the `real world’ identity
 

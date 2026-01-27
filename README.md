@@ -1,7 +1,5 @@
 Some tips for creating open data in a way that is helpful. The aim is to make your open data [machine-readable](http://opendatahandbook.org/glossary/en/terms/machine-readable/). These suggestions are from people who end up trying to use open data.
 
-See [Techniques](techniques) for more information.
-
 ## Tabular data
 * If you have tabular data, output it as a **CSV file** rather than as a PDF or Excel file.
 * When outputting CSVs from, say Excel, make sure that every table gets its own CSV file. Only put **one table in each CSV file**.
