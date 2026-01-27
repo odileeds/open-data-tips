@@ -1,6 +1,6 @@
 ---
 title: Open data tips
-url: index.html
+permalink: /
 ---
 
 Some tips for creating open data in a way that is helpful. The aim is to make your open data [machine-readable](http://opendatahandbook.org/glossary/en/terms/machine-readable/). These suggestions are from people who end up trying to use open data.

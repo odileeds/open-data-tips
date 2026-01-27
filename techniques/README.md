@@ -1,6 +1,6 @@
 ---
 title: Data Techniques
-url: index.html
+permalink: /techniques/
 ---
 
 This folder contains detailed breakdowns of techniques that can be used when dealing with data.
