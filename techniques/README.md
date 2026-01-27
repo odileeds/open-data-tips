@@ -1,15 +1,15 @@
----
-title: Data Techniques
-permalink: /techniques/
----
-
 This folder contains detailed breakdowns of techniques that can be used when dealing with data.
 Some are related to risk mitigation, others are more performance focussed.
 
+{% assign common = site.techniques | where: "common", true %}
+{% assign uncommon = site.techniques | where_exp: "item", "item.common != true" %}
+
+
 ## Common Techniques
 
-{% for file in ./ %}
-* [file.title]({{ file.url }}) 
+{% for t in common %}
+* [{{ t.title }}]({{ t.url | relative_url }})  
+  {{ t.excerpt }}
 {% endfor %}
 
 
