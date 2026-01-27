@@ -103,10 +103,12 @@ a.c8-bg:hover, a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-
 .site-header .title { flex-grow: 1; font-family: Poppins, sans-serif; font-size: 1.5em; }
 .site-header a { text-decoration: none; }
 footer a { color: inherit; }
+table th { background: black; color: white; }
 table th, table td {
 	padding: 0.125rem 0.25rem;
 	border: 1px solid gray;
 }
+table tr:nth-child(2n+1){ background: #efefef; }
 
 
 @media screen and (max-width: 1200px) {
