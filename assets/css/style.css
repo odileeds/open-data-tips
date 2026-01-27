@@ -1,0 +1,120 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+a, a:visited { color: inherit; }
+
+/* Main site styling */
+body { background-color: #000000; font-family: Arial,sans-serif; color: #efefef; line-height: 1.44em; text-rendering: optimizeLegibility; }
+p, iframe, h2, h3, h4, figure, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
+h1,h2,h3,h4 { font-family: Poppins, "fallback for poppins", sans-serif; line-height: 1em; }
+h1 { font-size: 2em; margin-top: 1em; }
+h2 { font-size: 1.7em; margin-top: 1.7647058823529411em; font-weight: 500; }
+h3 { font-size: 1.4em; margin-top: 1.428571em; }
+h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
+strong, b { font-weight: 700; }
+em, i { font-style: italic; }
+h2 a, h3 a,p a { color: #2254F4; text-decoration: underline; }
+p, time, li, td, th, footer, div { font-weight: 300; }
+button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; vertical-align: top; line-height: 1.25em; user-select: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+.oi-logo { width: 200px; margin-bottom: 0.25em; }
+.message { font-family: Poppins; font-size: 2em; line-height: 1.25em; margin: 2em 0; }
+
+.holder { position: relative; width: 68rem; max-width: 100%; margin: auto; }
+.padded { padding: 16px; }
+.block { display: block; }
+.padded-vertical { padding: 16px 0; }
+.doublepadded { padding: 32px; }
+.spaced { margin-bottom: 16px; }
+.centred { text-align: center; }
+.tallpadded, #main .tallpadded { padding-top: 80px; padding-bottom: 80px; }
+.tallpadded .holder > *:last-child { margin-bottom: 0; }
+
+.c8-bg, a.c8-bg { background-color: #722EA5; color: white; }
+.b1-bg { background-color: #000000; color: white!important; }
+.b2-bg { background-color: #333333; color: white!important; }
+.b3-bg { background-color: #999999; color: black!important; }
+.b4-bg { background-color: #bbbbbb; color: black!important; }
+.b5-bg { background-color: #dfdfdf; color: black!important; }
+.b6-bg { background-color: #ffffff; color: black!important; }
+a.c8-bg:hover, a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-bg:hover, a.c8-bg:focus, a.b1-bg:focus, a.b2-bg:focus, a.b3-bg:focus, a.b4-bg:focus, a.b5-bg:focus { background-color: #000000; color: white!important; }
+.b6-bg .button { background-color: black; color: white!important; }
+
+.center-block {
+	text-align: center;
+	max-width: 1080px;
+	margin: 1rem;
+}
+.center-block * > *:last-child { margin-bottom: 0; }
+.center-block h1 { margin-top: 0; margin-bottom: 1rem; }
+.center-block .oi-logo { width: 128px; height: 128px; }
+.center-block ul { display: grid; grid-gap: 1rem; grid-template-columns: 1fr 1fr; }
+.center-block ul a { display: block; padding: 1.5rem; text-decoration: none; height: 100%; }
+.center-block ul a > *:last-child { margin-bottom: 0; }
+
+@media screen and (max-width: 1200px) {
+	.center-block ul { grid-template-columns: 100%; }
+}
+
+@media screen and (max-height: 500px) {
+	.oi-logo { max-width: 100%; }
+}
